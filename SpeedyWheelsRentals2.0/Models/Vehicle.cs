@@ -13,6 +13,8 @@
         public virtual ICollection<Reservation>? Reservations { get; set; }
 
         // Method to update the vehicle status based on reservation statuses
+
+       
         public void UpdateStatusBasedOnReservations()
         {
             if (Reservations == null || Reservations.All(r => r.Status == ReservationStatus.Completed || r.Status == ReservationStatus.Cancelled))

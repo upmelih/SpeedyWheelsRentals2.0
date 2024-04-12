@@ -70,6 +70,14 @@ namespace SpeedyWheelsRentals2._0.Controllers
                 reservation.ReservationId = Guid.NewGuid();
                 _context.Add(reservation);
                 await _context.SaveChangesAsync();
+                var vehicle = _context.Vehicle.Include(v => v.Reservations)
+                                        .FirstOrDefault(v => v.VehicleId == reservation.VehicleId);
+
+                vehicle?.UpdateStatusBasedOnReservations();
+
+                // Save changes again to update the vehicle status
+                _context.SaveChanges();
+
                 return RedirectToAction(nameof(Index));
             }
 
@@ -79,6 +87,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
                                   "Value", "Text");
             ViewData["CustomerId"] = new SelectList(_context.Customer, "CustomerId", "CustomerId", reservation.CustomerId);
             ViewData["VehicleId"] = new SelectList(_context.Vehicle, "VehicleId", "VehicleId", reservation.VehicleId);
+            
             return View(reservation);
         }
 
@@ -122,6 +131,14 @@ namespace SpeedyWheelsRentals2._0.Controllers
                 {
                     _context.Update(reservation);
                     await _context.SaveChangesAsync();
+
+                    var vehicle = _context.Vehicle.Include(v => v.Reservations)
+                                        .FirstOrDefault(v => v.VehicleId == reservation.VehicleId);
+
+                    vehicle?.UpdateStatusBasedOnReservations();
+
+                    // Save changes again to update the vehicle status
+                    _context.SaveChanges();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -177,6 +194,13 @@ namespace SpeedyWheelsRentals2._0.Controllers
             }
             
             await _context.SaveChangesAsync();
+            var vehicle = _context.Vehicle.Include(v => v.Reservations)
+                                        .FirstOrDefault(v => v.VehicleId == reservation.VehicleId);
+
+            vehicle?.UpdateStatusBasedOnReservations();
+
+            // Save changes again to update the vehicle status
+            _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
 

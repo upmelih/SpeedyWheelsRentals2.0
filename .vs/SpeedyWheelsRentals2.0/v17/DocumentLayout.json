@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|c:\\users\\melih\\onedrive\\desktop\\new folder\\speedywheelsrentals2.0\\speedywheelsrentals2.0\\data\\migrations\\20240408202033_setupforstatusupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7109004C-D849-447A-84A7-50448C4112E1}|SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj|solutionrelative:speedywheelsrentals2.0\\data\\migrations\\20240408202033_setupforstatusupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +34,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "SpeedyWheelsRentals2.0\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAMgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:29:41.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240408202033_setupforstatusupdate.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Data\\Migrations\\20240408202033_setupforstatusupdate.cs",
+              "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Data\\Migrations\\20240408202033_setupforstatusupdate.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Data\\Migrations\\20240408202033_setupforstatusupdate.cs",
+              "RelativeToolTip": "SpeedyWheelsRentals2.0\\Data\\Migrations\\20240408202033_setupforstatusupdate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:20:33.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Models\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Models\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Models\\Services\\ReservationService.cs",
+              "RelativeToolTip": "SpeedyWheelsRentals2.0\\Models\\Services\\ReservationService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T20:03:05.847Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Models\\Vehicle.cs",
+              "RelativeToolTip": "SpeedyWheelsRentals2.0\\Models\\Vehicle.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T19:59:46.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "SpeedyWheelsRentals2.0\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACIAAAB1AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-07T20:52:12.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-07T20:52:12.933Z"
             },
             {
               "$type": "Document",
@@ -41,9 +106,10 @@
               "RelativeDocumentMoniker": "SpeedyWheelsRentals2.0\\Controllers\\VehiclesController.cs",
               "ToolTip": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\Controllers\\VehiclesController.cs",
               "RelativeToolTip": "SpeedyWheelsRentals2.0\\Controllers\\VehiclesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAAAPAAAA",
+              "ViewState": "AQIAALEAAAAAAAAAAAAQwMwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T20:35:36.313Z"
+              "WhenOpened": "2024-04-07T20:35:36.313Z",
+              "EditorCaption": ""
             }
           ]
         }

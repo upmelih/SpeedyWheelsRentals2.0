@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oPJOIvk38PE2/3iM8u2RnPRxRDupTAopqyzIGXDy590p5KOITgDqfZSBGlRgcLVTq/dqX9cdee4tIpjx6SaG2Q==",
+  "dgSpecHash": "qee0JZk3MexovzTTClQ0PGLJqaCua5Doea0bVdk/QVODjnpARSqba+8jmblvZ/NJ+VJG1eP8DtZKJaYtEcyXBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\melih\\OneDrive\\Desktop\\New folder\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0\\SpeedyWheelsRentals2.0.csproj",
   "expectedPackageFiles": [
@@ -227,7 +227,11 @@
     "C:\\Users\\melih\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\melih\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\melih\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\melih\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\melih\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
