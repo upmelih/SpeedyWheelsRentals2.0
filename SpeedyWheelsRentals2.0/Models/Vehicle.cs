@@ -6,6 +6,10 @@
         public string? Make { get; set; }
         public string? Model { get; set; }
         public int Year { get; set; }
+
+        public double DailyRentalPrice { get; set; }
+
+
         public string? RegistrationNumber { get; set; }
         public VehicleStatus Status { get; set; }
 

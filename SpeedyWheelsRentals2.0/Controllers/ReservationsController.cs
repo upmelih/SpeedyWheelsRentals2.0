@@ -63,7 +63,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status")] Reservation reservation)
+        public async Task<IActionResult> Create([Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status,ReservationCost")] Reservation reservation)
         {
             if (ModelState.IsValid)
             {
@@ -118,7 +118,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status")] Reservation reservation)
+        public async Task<IActionResult> Edit(Guid id, [Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status,ReservationCost")] Reservation reservation)
         {
             if (id != reservation.ReservationId)
             {

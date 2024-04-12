@@ -12,6 +12,19 @@
         // Navigation properties
         public virtual Customer? Customer { get; set; }
         public virtual Vehicle? Vehicle { get; set; }
+
+        public double ReservationCost
+        {
+            get
+            {
+                if (Vehicle != null && StartDate < EndDate)
+                {
+                    var totalDays = (EndDate - StartDate).TotalDays;
+                    return totalDays * Vehicle.DailyRentalPrice;
+                }
+                return 0;
+            }
+        }
     }
 
     public enum ReservationStatus

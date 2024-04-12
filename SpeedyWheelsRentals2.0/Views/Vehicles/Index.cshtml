@@ -27,6 +27,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.Status)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DailyRentalPrice)
+            </th>
+
             <th></th>
         </tr>
     </thead>
@@ -48,6 +52,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.DailyRentalPrice)
+                </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.VehicleId">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.VehicleId">Details</a> |
