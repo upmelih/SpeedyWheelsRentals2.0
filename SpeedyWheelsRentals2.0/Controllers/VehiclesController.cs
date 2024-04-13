@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -48,6 +49,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Vehicles/Create
+        [Authorize]
         public IActionResult Create()
         {
             ViewBag.Status = new SelectList(Enum.GetValues(typeof(VehicleStatus))
@@ -76,6 +78,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("VehicleId,Make,Model,Year,RegistrationNumber,Status,DailyRentalPrice")] Vehicle vehicle)
         {
             if (ModelState.IsValid)
@@ -100,6 +103,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
 
 
         // GET: Vehicles/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Vehicle == null)
@@ -125,6 +129,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(Guid id, [Bind("VehicleId,Make,Model,Year,RegistrationNumber,Status,DailyRentalPrice")] Vehicle vehicle)
         {
             if (id != vehicle.VehicleId)
@@ -160,6 +165,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Vehicles/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Vehicle == null)
@@ -180,6 +186,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // POST: Vehicles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             if (_context.Vehicle == null)

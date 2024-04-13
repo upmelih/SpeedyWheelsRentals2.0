@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SpeedyWheelsRentals2.0.props" />
+</Project>

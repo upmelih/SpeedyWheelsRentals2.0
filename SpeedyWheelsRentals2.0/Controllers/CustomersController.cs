@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -45,17 +46,24 @@ namespace SpeedyWheelsRentals2._0.Controllers
             return View(customer);
         }
 
+
         // GET: Customers/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
         }
 
+
+
         // POST: Customers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
+        
         public async Task<IActionResult> Create([Bind("CustomerId,Name,Email,PhoneNumber")] Customer customer)
         {
             if (ModelState.IsValid)
@@ -69,6 +77,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Customers/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Customer == null)
@@ -89,6 +98,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(Guid id, [Bind("CustomerId,Name,Email,PhoneNumber")] Customer customer)
         {
             if (id != customer.CustomerId)
@@ -120,6 +130,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Customers/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Customer == null)
@@ -140,6 +151,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // POST: Customers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             if (_context.Customer == null)

@@ -75,6 +75,18 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
+            },
+            "itext.bouncy-castle-fips-adapter": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.3, )"
             }
           },
           "imports": [

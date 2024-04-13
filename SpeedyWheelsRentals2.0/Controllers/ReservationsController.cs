@@ -2,22 +2,45 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SpeedyWheelsRentals.Models;
 using SpeedyWheelsRentals2._0.Data;
+using SpeedyWheelsRentals2._0.Services;
 
 namespace SpeedyWheelsRentals2._0.Controllers
 {
     public class ReservationsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        
+        private readonly ReportService _reportService;
 
-        public ReservationsController(ApplicationDbContext context)
+        public ReservationsController(ApplicationDbContext context, ReportService reportService)
         {
             _context = context;
+           
+            _reportService = reportService;
         }
+
+        public async Task<IActionResult> ExportToPdf()
+        {
+            var reservations = await _context.Reservation.Include(r => r.Customer).Include(r=>r.Vehicle).ToListAsync();
+            var tempFilePath = _reportService.GeneratePdfReportToFile(reservations);
+
+            if (string.IsNullOrEmpty(tempFilePath) || !System.IO.File.Exists(tempFilePath))
+            {
+                return NotFound(); // Handle scenario where file generation failed or file doesn't exist
+            }
+
+            var fileContent = await System.IO.File.ReadAllBytesAsync(tempFilePath);
+            System.IO.File.Delete(tempFilePath); // Delete the temp file after reading its content into memory
+
+            return File(fileContent, "application/pdf", "ReservationsReport.pdf");
+        }
+
 
         // GET: Reservations
         public async Task<IActionResult> Index()
@@ -47,6 +70,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Reservations/Create
+        [Authorize]
         public IActionResult Create()
         {
             ViewData["CustomerId"] = new SelectList(_context.Customer, "CustomerId", "CustomerId");
@@ -63,6 +87,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status,ReservationCost")] Reservation reservation)
         {
             if (ModelState.IsValid)
@@ -92,6 +117,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Reservations/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(Guid? id)
         {
             if (id == null || _context.Reservation == null)
@@ -118,6 +144,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(Guid id, [Bind("ReservationId,CustomerId,VehicleId,StartDate,EndDate,Status,ReservationCost")] Reservation reservation)
         {
             if (id != reservation.ReservationId)
@@ -159,6 +186,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         }
 
         // GET: Reservations/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Reservation == null)
@@ -181,6 +209,7 @@ namespace SpeedyWheelsRentals2._0.Controllers
         // POST: Reservations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(Guid id)
         {
             if (_context.Reservation == null)
