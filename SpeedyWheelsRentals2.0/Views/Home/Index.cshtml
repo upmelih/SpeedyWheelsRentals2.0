@@ -2,7 +2,61 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            background-color: #3AAFA9;
+        }
+    </style>
+</head>
+<body>
+    <div class="main2">
+        <div class="intro-info">
+        </div>
+        <section class="info-section">
+            <div class="form-checkbox-container" style="margin: auto">
+                <div class="container-with-border">
+                    <div class="form-checkbox-content">
+                        <div class="form-container" >
+                            <h1 style="text-decoration: underline; "> Speedy Wheels Employee Dashboard </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="About-employee">
+            <p>Welcome to the login dashboard for staff members of our car rental company! At Speedy Wheels, we pride ourselves on providing exceptional customer service. As a member of our team, you play a crucial role in ensuring that every interaction with our customers is positive and memorable. Your dedication to excellence helps us maintain our reputation as a trusted and reliable car rental service. Thank you for your commitment to delivering outstanding customer service!</p>
+        </div>
+
+        <img src="https://shorturl.at/goJM4" alt="Speedy Wheel Rentals Image" class="image" style="width: 100%; max-width: 1000px; height: auto; display: block; margin: 20px auto;">
+
+        <section class="values">
+            <div class="header-box">
+                <h2>What We Stand For</h2>
+            </div>
+            <div class="reasons-container">
+                <div class="reason">
+                    <h3>Our Brand</h3>
+                    <p>Our reputation is everything, and every employee has a stake in protecting our brands and helping our business grow.</p>
+                </div>
+                <div class="reason">
+                    <h3>Hard Work</h3>
+                    <p>Running a successful business is hard work. When our team members commit to their responsibilities and future, they receive the accolades and rewards they deserve.</p>
+                </div>
+                <div class="reason">
+                    <h3>Customer Service</h3>
+                    <p>Our goal is to exceed every customer’s expectations. And that starts with our people. One customer. One handshake. One delivered promise at a time.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

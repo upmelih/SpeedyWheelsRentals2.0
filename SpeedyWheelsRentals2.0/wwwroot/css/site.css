@@ -1,11 +1,77 @@
+:root {
+  --darkgreen: #17252A;
+  --teal: #2B7A78;
+  --aquamarine: #3AAFA9;
+  --mint: #DEF2F1;
+  --white: #FEFFFF;
+  --lightgray: #D9D9D9;
+}
+
+title {
+  color: white;
+  font-size: 100px;
+}
+
+navbar-title {
+  color: var(--white);
+}
+
+.navbar-brand-container {
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.navbar-links-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar-nav {
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+  .navbar-nav .nav-link {
+      color: white;
+  }
+
+      .navbar-nav .nav-link:hover,
+      .navbar-nav .nav-link:focus {
+          color: white;
+      }
+
+  .navbar-nav .nav-item {
+      text-align: center;
+  }
+
+.navbar-toggler {
+  order: -1; /* Move the toggler to the left */
+}
+
+.navbar {
+  padding: 0px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+  .navbar.title {
+      color: var(--mint);
+  }
+
 html {
   font-size: 14px;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+      font-size: 16px;
   }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -15,4 +81,198 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: var(--teal);
 }
+
+footer {
+  background-color: var(--darkgreen)
+}
+
+.navbar-title {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 3rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--white)
+}
+
+.navlinks {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: var(--white);
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  color: var(--white);
+}
+
+
+body, h1, h2, p, button, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+  }
+
+      header nav ul li a:hover {
+          background-color: #fff;
+          color: #003049;
+      }
+
+
+main {
+  padding: 2rem;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.form-checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  border: 3px solid #000000;
+  padding: 1rem;
+  background-color: rgb(174, 232, 232);
+}
+
+.container-with-border {
+  border: 3px solid #000000;
+  padding: 1rem;
+  background-color: rgb(253, 255, 252);
+}
+
+.form-checkbox-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-container,
+.checkbox-container {
+  flex: 1;
+}
+
+  .form-container form {
+      margin-bottom: 1rem;
+  }
+
+  body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #3AAFA9;
+  margin: 0;
+  padding: 0;
+}
+
+
+.main2 {
+  text-align: center;
+}
+
+.intro-info, .About-employee, .values {
+  margin-top: 20px;
+}
+
+.intro-info h1 {
+  color: #003049;
+}
+
+.About-employee {
+  background-color: #def2f1; 
+  color: white; 
+  padding: 20px;
+  border-radius: 5px; 
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border: 5px solid black;
+}
+
+.About-employee p {
+  color: #000000;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.image {
+ 
+  display: block; 
+  max-width: 90%; 
+  height: auto; 
+  margin: 0 auto 20px; 
+  border: 7px solid black;
+  border-radius: 5px; 
+}
+
+.values {
+  margin-top: 60px;
+}
+
+
+
+.reasons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.reason {
+  flex: 1;
+  max-width: 30%;
+  border: 3px solid #040404;
+  padding: 1rem;
+  background-color: #def2f1;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.reason h3 {
+  color: #000000;
+}
+
+

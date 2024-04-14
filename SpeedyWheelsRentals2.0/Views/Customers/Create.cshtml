@@ -4,39 +4,41 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Customer</h4>
+<body style="background-color: #FEFFFF; margin-bottom: 100px">
+    <h1 style="font-weight: 500; font-size: 40px; text-align:center;">Create New Customer</h1>
+    <div style="background-color: #17252A;">
 <hr />
-<div class="row">
+        <div class="row" style="padding: 50px; ">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="PhoneNumber" class="control-label"></label>
                 <input asp-for="PhoneNumber" class="form-control" />
                 <span asp-validation-for="PhoneNumber" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                        <input type="submit" value="Create" class="btn btn-primary" style="background-color: #3AAFA9; color: white; margin-top: 20px; padding-left: 155px; padding-right: 155px" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+            <a style="text-decoration: none; color: white; padding-left: 20px" asp-action="Index">Back to List</a>
 </div>
+</div>
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
