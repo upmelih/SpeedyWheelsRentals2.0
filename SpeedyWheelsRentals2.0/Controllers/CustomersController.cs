@@ -28,6 +28,23 @@ namespace SpeedyWheelsRentals2._0.Controllers
                           Problem("Entity set 'ApplicationDbContext.Customer'  is null.");
         }
 
+        // GET: customer/ShowSearchFrom
+
+        
+        public async Task<IActionResult> ShowSearchForm()
+        {
+
+            return View();
+        }
+
+
+        // POST: Books/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase)
+        {
+            return View("index", await _context.Customer.Where(b => b.Name.Contains(SearchPhrase)).ToListAsync());
+
+        }
+
         // GET: Customers/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {

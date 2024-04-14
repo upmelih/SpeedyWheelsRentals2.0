@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFNob3dTZWFyY2hGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXFNob3dTZWFyY2hGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/Error.cshtml]
@@ -100,6 +108,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcU2hvd1NlYXJjaEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/_ViewImports.cshtml]

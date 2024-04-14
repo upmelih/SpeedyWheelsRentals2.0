@@ -18,13 +18,17 @@ namespace SpeedyWheelsRentals2._0.Controllers
         
         private readonly ReportService _reportService;
 
-        public ReservationsController(ApplicationDbContext context, ReportService reportService)
+        private readonly GenerateBillService _generateBillService;
+
+        public ReservationsController(ApplicationDbContext context, ReportService reportService, GenerateBillService generateBillService)
         {
             _context = context;
            
             _reportService = reportService;
+            _generateBillService = generateBillService;
         }
 
+        // Generate the business report
         public async Task<IActionResult> ExportToPdf()
         {
             var reservations = await _context.Reservation.Include(r => r.Customer).Include(r=>r.Vehicle).ToListAsync();
@@ -41,12 +45,56 @@ namespace SpeedyWheelsRentals2._0.Controllers
             return File(fileContent, "application/pdf", "ReservationsReport.pdf");
         }
 
+        // Generate billing for each reservation
+        public async Task<IActionResult> Billing(Guid? id)
+        {
+            if (id == null || _context.Reservation == null)
+            {
+                return NotFound();
+            }
+
+            var reservation = await _context.Reservation
+                .Include(r => r.Customer)
+                .Include(r => r.Vehicle)
+                .FirstOrDefaultAsync(m => m.ReservationId == id);
+            var tempFilePath = _generateBillService.GeneratePdfBillToFile(reservation);
+
+            if (string.IsNullOrEmpty(tempFilePath) || !System.IO.File.Exists(tempFilePath))
+            {
+                return NotFound(); // Handle scenario where file generation failed or file doesn't exist
+            }
+
+            var fileContent = await System.IO.File.ReadAllBytesAsync(tempFilePath);
+            System.IO.File.Delete(tempFilePath); // Delete the temp file after reading its content into memory
+
+            return File(fileContent, "application/pdf", "ReservationsReport.pdf");
+            
+            
+
+        }
+
 
         // GET: Reservations
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Reservation.Include(r => r.Customer).Include(r => r.Vehicle);
             return View(await applicationDbContext.ToListAsync());
+        }
+
+        public async Task<IActionResult> ShowSearchForm()
+        {
+
+            return View();
+        }
+
+
+        // POST: Rservation/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase)
+        {
+            var applicationDbContext = _context.Reservation.Include(r => r.Customer).Include(r => r.Vehicle);
+            return View("index", await applicationDbContext.Where(r => r.Customer.Name.Contains(SearchPhrase)).ToListAsync());
+            
+
         }
 
         // GET: Reservations/Details/5

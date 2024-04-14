@@ -30,6 +30,20 @@ namespace SpeedyWheelsRentals2._0.Controllers
 
         }
 
+        public async Task<IActionResult> ShowSearchForm()
+        {
+
+            return View();
+        }
+
+
+        // POST: Vheicle/ShowSearchResult
+        public async Task<IActionResult> ShowSearchResult(String SearchPhrase)
+        {
+            return View("index", await _context.Vehicle.Where(b => b.Make.Contains(SearchPhrase)).ToListAsync());
+
+        }
+
         // GET: Vehicles/Details/5
         public async Task<IActionResult> Details(Guid? id)
         {

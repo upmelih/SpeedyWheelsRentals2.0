@@ -25,7 +25,7 @@
             {
                 Status = VehicleStatus.Available;
             }
-            else if (Reservations.Any(r => r.Status == ReservationStatus.Ongoing))
+            else if (Reservations.All(r => r.Status == ReservationStatus.Ongoing || r.Status == ReservationStatus.Upcoming))
             {
                 Status = VehicleStatus.Rented;
             }

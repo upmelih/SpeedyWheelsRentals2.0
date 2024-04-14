@@ -15,6 +15,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ReportService>(); // Register ReportService for dependency injection
+builder.Services.AddScoped<GenerateBillService>(); //Register GenerateBillService for dependency injection
 
 
 var app = builder.Build();
