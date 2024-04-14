@@ -9,119 +9,119 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SpeedyWheelsRentals2._0
 build_property.RootNamespace = SpeedyWheelsRentals2._0
-build_property.ProjectDir = C:\Users\melih\OneDrive\Desktop\New folder\SpeedyWheelsRentals2.0\SpeedyWheelsRentals2.0\
+build_property.ProjectDir = /workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\melih\OneDrive\Desktop\New folder\SpeedyWheelsRentals2.0\SpeedyWheelsRentals2.0
+build_property.MSBuildProjectDirectory = /workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/ShowSearchForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXFNob3dTZWFyY2hGb3JtLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Customers/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL1Nob3dTZWFyY2hGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXENyZWF0ZS5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERlbGV0ZS5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERldGFpbHMuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEVkaXQuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/ShowSearchForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXFNob3dTZWFyY2hGb3JtLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Reservations/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVzZXJ2YXRpb25zL1Nob3dTZWFyY2hGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcQ3JlYXRlLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcRGVsZXRlLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcRGV0YWlscy5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcRWRpdC5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcSW5kZXguY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/ShowSearchForm.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcU2hvd1NlYXJjaEZvcm0uY3NodG1s
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Vehicles/ShowSearchForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVoaWNsZXMvU2hvd1NlYXJjaEZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/melih/OneDrive/Desktop/New folder/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-9wnt488wlh
+[/workspaces/SpeedyWheelsRentals2.0/SpeedyWheelsRentals2.0/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wx3przhaqn
