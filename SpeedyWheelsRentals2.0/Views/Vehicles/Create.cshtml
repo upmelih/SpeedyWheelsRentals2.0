@@ -4,59 +4,57 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
+<body style="background-color: #FEFFFF; margin-bottom: 50px">
+    <h1 style="font-weight: 500; font-size: 40px; text-align:center;">Create</h1>
+    <div style="background-color: #17252A;">
 <h4>Vehicle</h4>
-<hr />
-<div class="row">
+        <div class="row" style="padding: 50px">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
+            <div class="form-group text-white">
                 <label asp-for="Make" class="control-label"></label>
                 <input asp-for="Make" class="form-control" />
                 <span asp-validation-for="Make" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="Model" class="control-label"></label>
                 <input asp-for="Model" class="form-control" />
                 <span asp-validation-for="Model" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="Year" class="control-label"></label>
                 <input asp-for="Year" class="form-control" />
                 <span asp-validation-for="Year" class="text-danger"></span>
             </div>
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="RegistrationNumber" class="control-label"></label>
                 <input asp-for="RegistrationNumber" class="form-control" />
                 <span asp-validation-for="RegistrationNumber" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
+                    <div class="form-group text-white">
                 <label asp-for="Status" class="control-label"></label>
                 <select asp-for="Status" asp-items="@(new SelectList(ViewBag.Status, "Value", "Text"))" class="form-control"></select>
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
-
-            @{/*
-
-        <div class="form-group">
-        <label asp-for="Status" class="control-label"></label>
-        <select asp-for="Status" class="form-control"></select>
-        <span asp-validation-for="Status" class="text-danger"></span>
-                </div>*/
-            }
+                    <div class="form-group text-white">
+                        <label asp-for="DailyRentalPrice" class="control-label"></label>
+                        <input asp-for="DailyRentalPrice" class="form-control" />
+                        <span asp-validation-for="DailyRentalPrice" class="text-danger"></span>
+                    </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                        <input type="submit" value="Create" class="btn btn-primary" style="background-color: #3AAFA9; color: white; margin-top: 20px; padding-left: 155px; padding-right: 155px" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+            <a style="text-decoration: none; color: white; padding-left: 20px" asp-action="Index">Back to List</a>
 </div>
+</div>
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
